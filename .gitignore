@@ -1,0 +1,21 @@
+# Client data must never live in the repository.
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.xlsx
+*.xls
+*.csv
+*.pdf
+data/
+exports/
+backups/
+
+# Build output
+.build/
+*.app/
+.swiftpm/
+
+# macOS
+.DS_Store
